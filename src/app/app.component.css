@@ -1,0 +1,99 @@
+/* Sidebar styles */
+.title {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+}
+
+ #close:before {
+     content: "\e109";
+ }
+
+ .main{
+   display: grid;
+   align-content: center;
+ }
+li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+li a{
+  padding-right:1vw;
+  font-size:24px;
+  color:#9d9d9d;
+  text-decoration:none;
+}
+body {
+  margin:0px;
+}
+ul {
+  border: 1px grey;
+  text-align:center;
+  margin: 0;
+  background-color: #101010;
+  text-decoration-color: white;
+} 
+.sidebar-heading {
+  color: #1c86c8;
+  margin: 40px 0;
+  padding: 2px;
+}
+
+.paragraph-content {
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  font-weight: 300;
+  color: grey;
+}
+.sub-title {
+      text-align: center;
+      font-size: 20px;
+      padding: 3vw;
+      color: white;
+}
+ .main li {
+  padding: 15px;
+ }
+ 
+  #close{
+     line-height: 30px;
+     float: right;
+ }
+
+#parent-sidebar.e-sidebar {
+  background-color:#1694CA;
+  color: #ffffff;
+  padding-right: 0px;
+  display: inline-block !important;
+}
+.sub-title {
+  text-align: center;
+  font-size: 20px;
+  padding: 3vw;
+  color: white;
+}
+#myCarousel {
+  padding-left:10px;
+}
+/* end of sidebar styles */
+
+/* style of first sidebar */
+
+#default-sidebar {
+  background-color:#1694CA;
+  color: #ffffff;
+}
+
+/* end of styles of first sidebar */
+
+/* style of second sidebar */
+
+#second-sidebar {
+  background-color: #1694CA;
+  color: #ffffff;
+}
+
+/* end of styles of second sidebar */
